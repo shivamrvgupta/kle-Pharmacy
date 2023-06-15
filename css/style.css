@@ -15,7 +15,7 @@ form{
 }
 
 .bg-img {
-    background-image: url("/assets/bg-image.png");
+    background-image: url("../assets/bg-image.png");
     
     background-position: center;
     background-repeat: no-repeat;

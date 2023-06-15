@@ -7,8 +7,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/media.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,32 +32,32 @@
      
         <div class="d-flex flex-row-reverse  p-5">
           
-        <form class="bd-highlight">
+        <form  name="submit-to-google-sheet"  id="courses-form" novalidate="novalidate" class="bd-highlight">
           <div class="row">
               <div class="col form-group">
-                  <input type="text" class="form-control" placeholder="First name">
+                  <input type="text" name="Name" class="form-control" placeholder="Name">
               </div>
           </div>
           <div class="form-row">
               <div class="form-group col-md-6 ">
-                <input type="text" class="form-control" id="city" placeholder="City">
+                <input type="text" name="City" class="form-control" id="city" placeholder="City">
               </div>
               <div class="form-group col-md-6">
-                <input type="text" class="form-control" id="district" placeholder="District">
+                <input type="text" name="District" class="form-control" id="district" placeholder="District">
               </div>
           </div>
               <div class="form-group">
-                <input type="text" class="form-control" id="state" placeholder="State">
+                <input type="text" name="State" class="form-control" id="state" placeholder="State">
                 </div>
               <div class="form-group">
-                <input type="text" class="form-control" id="Mnumber" placeholder="Phone/Mobile">
+                <input type="text" name="Phone" class="form-control" id="Mnumber" placeholder="Phone/Mobile">
               </div>
               <div class="form-group">
-                <input type="email" class="form-control" id="Email" placeholder="Email">
+                <input type="email" name="Email" class="form-control" id="Email" placeholder="Email">
               </div>
               <div class="form-row">
                   <div class="form-group col-md-12 ">
-                      <select id="inputState" class="form-control">
+                      <select id="inputState" name="Course" class="form-control">
                           <option selected>Choose a Course</option>
                           <option>---</option>
                           <option>B.Pharm</option>
@@ -68,6 +68,7 @@
                   </div>
                </div>
               <div class="form-row">
+                <span id="msg"></span>
                <button type="submit" class="btn btn-warning btn-block">Apply Now</button>
               </div>
         </form>
@@ -126,8 +127,10 @@
         </div>
     </div>
   </section>
-    <!-- Optional JavaScript; choose one of the two! -->
 
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="./script.js"></script>
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>

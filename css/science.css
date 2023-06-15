@@ -1,3 +1,213 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Science Content */
+
+.bd-highlight{
+    background-color: rgba(53, 107, 152, 0.799);
+    padding: 3rem;
+    min-height: 500px;
+}
+
+.form-control{
+    height: 50px;
+    margin-bottom: -1%;
+    border-radius: 0;
+}
+
+.btn{
+    height: 50px;
+    border-radius: 0;
+    margin: .35rem;
+}
+form{
+    width: 40%;
+    height: auto;
+    font-size: medium;
+}
+
+.science {
+    background-image: url("../assets/science.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+.sci-about .about1{
+    font-weight: 800;
+    font-size: 8rem;
+    margin-bottom: -1%;
+    color: #ff981d;
+}
+.sci-about .about2{
+    font-weight: 800;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: #03629f;
+}
+
+.sci-about p{
+    color: #808285;
+    font-size: 17px;
+}
+
+.sci-courses{
+    min-height: 2000px;
+    background: url("../assets/courses.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2rem 4rem;
+}
+.scicourses{
+    margin: 2rem 1rem;
+}
+.course-title{
+    font-size: 2rem;
+    color: #fbb041;
+    font-weight: 600;
+}
+.tech{
+    margin-left: -12%;
+}
+.tech-list{
+    display: flex;
+    background-color: aliceblue;
+    padding: 1rem;
+    margin-bottom: .5rem;
+}
+
+.tech-text{
+    font-weight: 500;
+    margin-left: 4%;
+    margin-top: -3%;
+    font-size: 18px;
+    display: grid;
+    color: #808285;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.col-lg-3, .col-md-3, .col-sm-12 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.course-title-2{
+    font-size: 2rem;
+    color: #fbb041;
+    font-weight: 600;
+    margin-left: 8%;
+}
+.props-lists{
+    list-style-type: none;
+    color: aliceblue;
+    margin-bottom: 4%;
+    font-size: 17px;
+    display: flex;
+
+}
+
+.text-elig{
+    display: flex;
+}
+
+.text-bot{
+    display: grid;
+    align-content: center;
+    justify-content: end;
+    align-items: end;
+    justify-items: center;
+    margin-top: -1%;
+}
+.text-bot p {
+    margin-top: -5px;
+    margin-left: 40%;
+}
+
+.etext{
+    margin-top: 6%;
+}
+
+.hr{
+    margin-top: 0;
+    margin-left: 35%;
+    width: 65%;
+    border-top: 2px solid #ffffff;
+}
+
+.img-top{
+    display: grid;
+    align-content: center;
+    width: 100%;
+    justify-content: start;
+    align-items: start;
+    justify-items: start;
+}
+
+.eligiblity{
+    margin-top: 2%;
+    margin-left: 9%;
+}
+
+hr.style-two {
+    border: 0;
+    height: 4px;
+    background-image: linear-gradient(to right, rgb(0 0 0 / 0%), rgb(0 0 0 / 28%), rgba(0, 0, 0, 0));
+    width: 100%;
+}
+
+
+/* Media */
+
+
+/* Science */
+
+@media (max-width: 600px) {
+    .eligiblity {
+        margin-top: 5%;
+        margin-left: -5%;
+    }
+}
+@media (max-width: 510px) {
+    .img-top .lab-img{
+        width: 100%;
+    }
+    .sci-about .about1 {
+        font-weight: 800;
+        font-size: 4rem;
+        margin-bottom: -1%;
+        color: #ff981d;
+    }
+    .sci-about .about2 {
+        font-weight: 800;
+        font-size: 1.3rem;
+    }
+    .sci-about p {
+        font-size: 12px;
+    }
+    .science{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .tech-list{
+        padding: 0.5rem;
+    }
+    .tech-list img{
+        height: 40%;
+        width: auto;
+    }
+    .tech-text {
+        font-size: 12px;
+    }
+    .props{
+        margin-left: -15%;
+    }
+}
+
 @media (max-width:1200px){  
     .col-img {
         padding-top: 5rem;
