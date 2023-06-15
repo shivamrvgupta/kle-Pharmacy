@@ -35,29 +35,29 @@
         <form  name="submit-to-google-sheet"  id="courses-form" novalidate="novalidate" class="bd-highlight">
           <div class="row">
               <div class="col form-group">
-                  <input type="text" name="Name" class="form-control" placeholder="Name">
+                  <input type="text" name="Name" class="form-control" placeholder="Name" required>
               </div>
           </div>
           <div class="form-row">
               <div class="form-group col-md-6 ">
-                <input type="text" name="City" class="form-control" id="city" placeholder="City">
+                <input type="text" name="City" class="form-control" id="city" placeholder="City" required>
               </div>
               <div class="form-group col-md-6">
-                <input type="text" name="District" class="form-control" id="district" placeholder="District">
+                <input type="text" name="District" class="form-control" id="district" placeholder="District" required>
               </div>
           </div>
               <div class="form-group">
-                <input type="text" name="State" class="form-control" id="state" placeholder="State">
+                <input type="text" name="State" class="form-control" id="state" placeholder="State" required>
                 </div>
               <div class="form-group">
-                <input type="text" name="Phone" class="form-control" id="Mnumber" placeholder="Phone/Mobile">
+                <input type="text" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required name="Phone" class="form-control" id="phoneInput" placeholder="Phone/Mobile">
               </div>
               <div class="form-group">
-                <input type="email" name="Email" class="form-control" id="Email" placeholder="Email">
+                <input type="email" name="Email" class="form-control" id="Email" placeholder="Email" required>
               </div>
               <div class="form-row">
                   <div class="form-group col-md-12 ">
-                      <select id="inputState" name="Course" class="form-control">
+                      <select id="inputState" name="Course" class="form-control" required>
                           <option selected>Choose a Course</option>
                           <option>---</option>
                           <option>B.Pharm</option>

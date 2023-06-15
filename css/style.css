@@ -133,3 +133,7 @@ form{
   .bottom{
     margin-bottom: 25%;
   }
+
+.error {
+  border: 1px solid red;
+}
