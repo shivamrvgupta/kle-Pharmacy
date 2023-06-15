@@ -9,7 +9,7 @@ form.addEventListener('submit', e => {
         setTimeout(function(){
             window.location.href = './thankyou.html';
             msg.innerHTML = "Message sent successfully"
-        },2000)
+        },1000)
         form.reset()
     })
     .catch(error => {
