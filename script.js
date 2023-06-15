@@ -7,7 +7,7 @@ form.addEventListener('submit', e => {
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
     .then(response => {
         setTimeout(function(){
-            window.location.href = './Thankyou.html';
+            window.location.href = './thankyou.html';
             msg.innerHTML = "Message sent successfully"
         },2000)
         form.reset()
